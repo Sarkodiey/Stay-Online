@@ -40,7 +40,7 @@ Invoke-YSStayOnline -Hours 1 -Minutes 30
 - Yaw Sarkodie
 
 ## Acknowledgments
-- Thanks to Rob C for contributing to the initial version of the script
+- Thanks to [Rob C](https://github.com/rcalvanese) for contributing to the initial version of the script
 
 ## Version
 1.0.0

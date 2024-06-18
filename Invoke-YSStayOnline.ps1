@@ -49,6 +49,7 @@ function Invoke-YSStayOnline {
     
         #Set a New Time Span with the specified number of hours, minutes, and seconds
         $Duration = New-TimeSpan -Hours $Hours -Minutes $Minutes -Seconds $Seconds
+        
         #Set a default time span of 5 minutes if the user does not specify one
         if (0 -eq $Duration.Hours -and 0 -eq $Duration.Minutes -and 0 -eq $Duration.Seconds) 
                 {

@@ -30,12 +30,18 @@ To keep the system online for 1 hour and 30 minutes, you would use:
 Invoke-YSStayOnline -Hours 1 -Minutes 30
 ```
 
-## Note
-This script is for educational purposes only. Please use responsibly.
+## Notes
+- The function sends the F13 key press every 10 seconds. You can change this key or the interval if needed.
+- If you don't specify any parameters, the function will keep your computer online for 5 minutes by default
+- This function is intended for personal use and should not be used for malicious purposes.
+- It's important to note that this function might not work on all systems or under all circumstances.
 
 ## Author
 - Yaw Sarkodie
 
 ## Acknowledgments
 - Thanks to Rob C for contributing to the initial version of the script
+
+## Version
+1.0.0
 
